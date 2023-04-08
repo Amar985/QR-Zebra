@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Zebra</title>
+    <link href="https://th.bing.com/th/id/OIP.aIfjkWKE_zHHUWKTt5JkUgHaHa?pid=ImgDet&rs=1" rel="icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    
+
+    <div class="grid">
+        <h2 align="center">QR Zebra</h2>
+        <center>
+        <img src="" id="img"></center>
+
+        <select id="size">
+            <option value="100">100x100</option>
+            <option value="150">150x150</option>
+            <option value="200">200x200</option>
+            <option value="250" selected>250x250</option>
+            <option value="300">300x300</option>
+            <option value="400">400x400</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Enter Your Text" id="qrtext"></textarea>
+        <br><br>
+        <input type="submit" value="Generate" onclick="generate()" ><br>
+
+
+        <a href="" download="qr">
+            <input type="submit" value="Download" onclick="myimg.src">
+        </a>
+
+        <h7>Made by Amar Kumar👌</h7>
+        
+        
+    </div>
+</body>
+</html>

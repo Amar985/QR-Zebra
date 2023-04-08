@@ -1,0 +1,181 @@
+:root {
+    --baseColor: #606468;
+  }
+  
+  .grid {
+    inline-size: 90%;
+    margin-inline: auto;
+    max-inline-size: 20rem;
+    display:grid;
+  }
+  
+  
+  .hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .icon {
+    block-size: 1em;
+    display: inline-block;
+    fill: var(--iconFill);
+    inline-size: 1em;
+    vertical-align: middle;
+  }
+  
+  :root {
+    --htmlFontSize: 100%;
+  
+    --bodyBackgroundColor: #2c3338;
+    --bodyColor: var(--baseColor);
+    --bodyFontFamily: "Open Sans";
+    --bodyFontFamilyFallback: sans-serif;
+    --bodyFontSize: 0.875rem;
+    --bodyFontWeight: 400;
+    --bodyLineHeight: 1.5;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+  }
+  
+  body {
+    background-color: #5d8471;
+    color: white;
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    min-block-size: 100vh;
+     display: grid;
+    place-items: center;
+  }
+  
+  
+  
+
+  
+  a:focus,
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  :root {
+    --formGap: 0.875rem;
+  }
+  
+  input {
+
+    color: inherit;
+    font: inherit;
+    transition: background-color 0.3s;
+  }
+  
+  textarea {
+    background-image: none;
+    color: inherit;
+    font: inherit;
+    transition: background-color 0.3s;
+  }
+  
+  select,option {
+    background-image: none;
+    color: inherit;
+    font: inherit;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  
+  
+  textarea,
+  select,
+  option,
+  input[type="submit"] {
+    inline-size: 100%;
+  }
+  
+  
+  
+  
+  :root {
+    --loginBorderRadus: 0.25rem;
+    --loginColor: #eee;
+  
+    --loginInputBackgroundColor: #3F5E5A;
+    --loginInputHoverBackgroundColor: #304442;
+  
+    --loginLabelBackgroundColor: #3F5E5A;
+  
+    --loginSubmitBackgroundColor: #20FC8F;
+    --loginSubmitColor: #eee;
+    --loginSubmitHoverBackgroundColor: #6bedac;
+  }
+  
+  .login {
+   
+  }
+  
+  
+  textarea,
+  select,
+  option,
+  textarea,
+  input[type="submit"] {
+  border-radius: var(--loginBorderRadus);
+  padding: 1rem;
+  }
+  
+  
+  
+  
+  textarea,option,select {
+    background-color: var(--loginInputBackgroundColor);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  
+  
+  textarea:focus,
+  textarea:hover {
+    background-color: var(--loginInputHoverBackgroundColor);
+  }
+  
+  input[type="submit"] {
+  background-color: #20FC8F;
+  color: var(--loginSubmitColor);
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+  
+  input[type="submit"]:focus,
+  input[type="submit"]:hover {
+    background-color: #4dd591;
+  }
+  
+  
+ h7{
+    margin-block: 1.5rem;
+    text-align: center;
+  }
+  
+  
+  img
+  {
+  max-width: 100%;
+  max-height: 100%;
+  }
