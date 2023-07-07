@@ -17,4 +17,7 @@ By using our website, you may create QR codes quickly and accurately, saving you
 Download high-resolution versions of your QR codes for use in both digital and print applications. They are prepared to be incorporated into your promotional materials, such as flyers, posters, and business cards.
 
 
+![image](https://github.com/Amar985/QR-Zebra/assets/84828275/2caacaaf-03c6-4b6a-908a-8e354dd10967)
+
+
 Discover the power of QR codes for your personal or professional purposes by browsing our QR Zebra right now. Simplify your online interactions to establish fresh connections with your audience.
